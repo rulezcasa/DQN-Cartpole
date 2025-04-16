@@ -11,6 +11,8 @@
 ## Overview
 This codebase implements a Deep Q-Network on the cartpole. - a classic control gymnasium environment.
 
+<img width="204" alt="Screenshot 2025-04-16 at 9 25 49 PM" src="https://github.com/user-attachments/assets/4b89eed2-b5be-429a-ad37-fcc2d6b9cae2" />
+
 ### CartPole-v1 Environment Details
 
 | Property           | Value                                                                 |
@@ -36,3 +38,7 @@ This codebase implements a Deep Q-Network on the cartpole. - a classic control g
 | **target_update**  | 1000     |
 | **learning rate (lr)** | 0.00007  |
 | **T (Total Timesteps)** | 200000   |
+
+
+## Training
+<img width="1333" alt="Screenshot 2025-04-16 at 9 26 52 PM" src="https://github.com/user-attachments/assets/a6fe04c1-5e32-43d3-a184-16cd8e502c08" />
