@@ -1,20 +1,6 @@
-AT-DQN:
-  replay_buffer: 20000
-  beta_start: 0.4
-  warmup: 3000
-  beta_end: 1.0
-  sma_window: 10
-  tau: 0.4
-  T: 50000
-  gamma: 0.99
-  lr: 0.00025
-  LRU: 100000
-  target_update: 100
-  device: "cuda"
-
 Vanilla-DQN:
   epsilon_start: 0.9
-  epsilon_end: 0.1
+  epsilon_end: 0.5
   decay_steps: 80000
   replay_buffer: 100000
   warmup: 5000
